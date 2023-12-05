@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top_menu">
+            <img src="/assets/Logo NB Ivan Vazov.png" class="logo">
+            <a href="https://ilib.libplovdiv.com/" target="_blank">
+                <p>katalog</p>
+            </a>
+            <p>За нас</p>
+            <p>Услуги</p>
+            <p>Колекции</p>
+
+            <div class="dropdown">
+                <button onclick="dropdown('onlineServices')" class="dropbtn">Онлайн услуги</button>
+                <div id="onlineServices" class="dropdown-content">
+                    <a href="#vss">Виртуална справочна служба</a>
+                    <a href="#vks">Виртуална краеведска служба</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick="dropdown('onlineResources')" class="dropbtn">Онлайн ресурси</button>
+                <div id="onlineResources"class="dropdown-content">
+                    <a href="#digital">Дигитална библиотека</a>
+                    <a href="#ebsco">EBSCO</a>
+                </div>
+            </div>
+          
+            <p><i class="fa-solid fa-magnifying-glass"></i></p>
+
+        </div>
+
+        <div class="main_content">
+            <aside>
+                <p>Примерна анкета</p>
+                <button>Гласувай</button>
+            </aside>
+
+            <p>glaven konteiner</p>
+        </div>
+
+        <div class="bottom_menu">
+            <div>
+                <p>Работно време</p>
+                <p><i class="fa-regular fa-clock"></i> 08.00 – 17.45 часа (зимно)</p>
+                <p>още...<i class="fa-solid fa-angles-right"></i></p>
+            </div>
+
+            <div>
+                <p><i class="fa-solid fa-location-dot"></i> ул. "Авксентий Велешки'' № 17</p>
+                <p>още...<i class="fa-solid fa-angles-right"></i></p>
+            </div>
+
+            <div>
+                <p><i class="fa-regular fa-envelope"></i> nbiv@libplovdiv.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> (+ 359 32) 654 901, 912</p>
+                <p>още...<i class="fa-solid fa-angles-right"></i></p>
+            </div>
+            <div>
+                <p>социални мрежи</p>
+                <a href="https://www.facebook.com/LibraryPlovdiv/?locale=bg_BG" target="_blank"><i
+                        class="fa-brands fa-square-facebook fa-2x"></i></a>
+                <a href="https://twitter.com/PlovdivLibrary" target="_blank"><i
+                        class="fa-brands fa-square-x-twitter fa-2x"></i></a>
+                <a href="https://www.youtube.com/@user-pl7zg1wl7r" target="_blank"><i
+                        class="fa-brands fa-square-youtube fa-2x"></i></a>
+
+            </div>
+
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
